@@ -10,7 +10,7 @@
 
 /* @@@@@ Nav Bar @@@@@*/
 nav{
-    position: sticky;
+    position: fixed;
     width: 100%;
     top: 0;
     bottom: 0;
@@ -30,15 +30,15 @@ nav{
 
 li{
     list-style:disc;
-    padding: 15px;
-    border-radius: 30px;
+    padding: 0.9375rem;
+    border-radius: 1.875rem;
     color: white;
     display: inline-block;
 }
 
 .nav-item{
-    margin: 20px;
-    font-size: 30px;
+    margin: 1.25rem;
+    font-size: 1.875rem;
 }
 
 a{
@@ -65,10 +65,17 @@ main{
 /* ######################### */
 
 
+
+
+
+/* !!!!!!!!!! Home Page Info !!!!!!!!!!*/
+
+
+
 /* $$$$$ Welcome Image $$$$$ */
 #opaque-pepsi-city{
     width: 100%;
-    height: 600px;
+    height: 37.5em;
     opacity: 0.3;
 }
 
@@ -82,7 +89,7 @@ main{
 .welcome-text{
     background-color: white;
     position: absolute;
-    top: 350px;
+    top: 21.875rem;
     left: 0px;
     padding: 0;
     width: 100%;
@@ -99,19 +106,19 @@ main{
 }
 
 .city-intro{
-    margin-top: 400px;
-    margin-bottom: 400px;
+    margin-top: 25em;
+    margin-bottom: 25em;
 }
 .intro-text{
     width: 43%;
     text-align: center;
     padding: 1em;
-    border: 3px red solid;
+    border: 0.1875em red solid;
     background-color: white;
     color: blue;
     position: absolute;
-    top: 1280px;
-    left: 980px;
+    top: 80rem;
+    left: 61.25rem;
 }
 /* %%%%%%%%%%%%%%%%%%%% */
 
@@ -121,26 +128,26 @@ main{
     height: 45em;
     width: 40%;
     position: absolute;
-    left: 1000px;
-    top: 2400px;
+    left: 62.5em;
+    top: 150em;
 }
 
 .president-box{
     width: 100%;
-    height: 700px;
-    margin-bottom: 400px;
+    height: 43.75em;
+    margin-bottom: 12.5em;
 }
 
 .about-obama{
     width: 43%;
     text-align: center;
     padding: 1em;
-    border: 3px red solid;
+    border: 0.1875em red solid;
     background-color: white;
     color: blue;
     position: absolute;
-    top: 2450px;
-    left: 50px;
+    top: 153.125rem;
+    left: 3.125rem;
 }
 /* ^^^^^^^^^^^^^^^^^^^ */
 
@@ -155,50 +162,63 @@ main{
 #logo-gif{
     position: relative;
     z-index: 0.9;
-    height: 400px;
-    width: 400px;
-    right: 400px;
-    top: 200px;
+    height: 25em;
+    width: 25em;
+    right: 25.1875em;
+    top: 12.5em;
 }
 
 #pepsi-police{
     position: absolute;
-    height: 400px;
-    width: 400px;
-    right: 850px;
-    top: 3759px;
+    height: 25em;
+    width: 25em;
+    right: 65.25em;
+    top: 12.5em;
 }
 
 #pepsi-science{
-    position: absolute;
-    height: 400px;
-    width: 400px;
-    top: 4159.5px;
-    right: 1250px;
+    position: relative;
+    height: 25em;
+    width: 25.375em;
+    top: 37.5em;
+    right: 50.625em;
 }
 
 #pepsi-hat{
-    position: absolute;
-    height: 400px;
-    width: 400px;
-    top: 4159.5px;
-    right: 850px;
+    position: relative;
+    height: 25em;
+    width: 25em;
+    top: 37.5em;
+    right: 50.9375em;
 
-}
-
-#logo-gif:hover{
-    opacity: 0;
 }
 
 .values-text{
     width: 43%;
     text-align: center;
     padding: 1em;
-    border: 3px red solid;
+    border: 0.1875em red solid;
     background-color: white;
     color: blue;
     position: absolute;
-    left: 980px;
-    top: 3780px;
+    left: 61.25rem;
+    top: 14.375rem;
+}
+
+.values-box{
+    height: 62.5em;
+    width: 100%;
+    position: absolute;
 }
 /* &&&&&&&&&&&&&&&&&&&&&& */
+
+
+
+
+
+
+/* !!!!!!!!!!! City History Content !!!!!!!!!!*/
+.home-history{
+    margin-top: 120em;
+
+}
