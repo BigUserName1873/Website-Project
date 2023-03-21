@@ -128,6 +128,7 @@ main{
 .president-box{
     width: 100%;
     height: 700px;
+    margin-bottom: 400px;
 }
 
 .about-obama{
@@ -146,15 +147,58 @@ main{
 /* &&&&& Our Values &&&&& */
 #logo-gif-overlay{
     position: relative;
+    height: 400px;
+    width: 400px;
+    top: 200px;
+}
+
+#logo-gif{
+    position: relative;
+    z-index: 0.9;
+    height: 400px;
+    width: 400px;
+    right: 400px;
+    top: 200px;
+}
+
+#pepsi-police{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    right: 850px;
+    top: 3759px;
+}
+
+#pepsi-science{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 4159.5px;
+    right: 1250px;
+}
+
+#pepsi-hat{
+    position: absolute;
+    height: 400px;
+    width: 400px;
+    top: 4159.5px;
+    right: 850px;
+
 }
 
 #logo-gif:hover{
     opacity: 0;
 }
 
-#logo-gif{
-    position: relative;
-    z-index: 1;
+.values-text{
+    width: 43%;
+    text-align: center;
+    padding: 1em;
+    border: 3px red solid;
+    background-color: white;
+    color: blue;
+    position: absolute;
+    left: 980px;
+    top: 3780px;
 }
-
 /* &&&&&&&&&&&&&&&&&&&&&& */
