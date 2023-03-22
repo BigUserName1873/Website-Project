@@ -5,6 +5,9 @@
     padding: 0;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 /* !!!!!!!!!!!!!!!!!!!!! */
 
 
@@ -103,22 +106,25 @@ main{
 #city-gif{
     height: 50em;
     width: 50%;
+    position: relative;
+    left: 2em;
 }
 
 .city-intro{
     margin-top: 25em;
-    margin-bottom: 25em;
+    margin-bottom: 15em;
 }
 .intro-text{
-    width: 43%;
+    font-size: 1.5rem;
+    width: 30%;
     text-align: center;
-    padding: 1em;
+    padding: 2rem;
     border: 0.1875em red solid;
     background-color: white;
     color: blue;
     position: absolute;
-    top: 80rem;
-    left: 61.25rem;
+    top: 77rem;
+    left: 70rem;
 }
 /* %%%%%%%%%%%%%%%%%%%% */
 
@@ -139,15 +145,16 @@ main{
 }
 
 .about-obama{
-    width: 43%;
+    font-size: 1.5rem;
+    width: 30%;
     text-align: center;
-    padding: 1em;
+    padding: 2rem;
     border: 0.1875em red solid;
     background-color: white;
     color: blue;
     position: absolute;
-    top: 153.125rem;
-    left: 3.125rem;
+    top: 155rem;
+    left: 13rem;
 }
 /* ^^^^^^^^^^^^^^^^^^^ */
 
@@ -157,6 +164,7 @@ main{
     height: 400px;
     width: 400px;
     top: 200px;
+    left: 1.3em;
 }
 
 #logo-gif{
@@ -164,7 +172,7 @@ main{
     z-index: 0.9;
     height: 25em;
     width: 25em;
-    right: 25.1875em;
+    right: 24em;
     top: 12.5em;
 }
 
@@ -172,7 +180,7 @@ main{
     position: absolute;
     height: 25em;
     width: 25em;
-    right: 65.25em;
+    right: 64.09em;
     top: 12.5em;
 }
 
@@ -181,7 +189,7 @@ main{
     height: 25em;
     width: 25.375em;
     top: 37.5em;
-    right: 50.625em;
+    right: 49.625em;
 }
 
 #pepsi-hat{
@@ -189,19 +197,20 @@ main{
     height: 25em;
     width: 25em;
     top: 37.5em;
-    right: 50.9375em;
+    right: 49.9375em;
 
 }
 
 .values-text{
+    font-size: 1.5rem;
     width: 43%;
     text-align: center;
-    padding: 1em;
+    padding: 2rem;
     border: 0.1875em red solid;
     background-color: white;
     color: blue;
     position: absolute;
-    left: 61.25rem;
+    left: 58rem;
     top: 14.375rem;
 }
 
@@ -224,7 +233,45 @@ main{
 
 
 /* !!!!!!!!!!! City History Content !!!!!!!!!!*/
-.home-history{
-    margin-top: 120em;
+#home-history{
+    margin-top: 110em;
 
+}
+
+.history-welcome{
+    font-size: 3rem;
+    position: absolute;
+    color: white;
+    background-color: red;
+    width: 100%;
+    text-align: center;
+}
+
+.history-info{
+    position: relative;
+    font-size: 1.5rem;
+    width: 40%;
+    top: 10em;
+    left: 22em;
+    text-align: center;
+    padding: 2rem;
+    border: 0.1875em red solid;
+    background-color: white;
+    color: blue;
+}
+
+.history-text{
+    position: relative;
+    background-color: white;
+    color: blue;
+    width: 91%;
+    top: 30em;
+    left: 3.15em;
+    padding: 2rem;
+    text-align: justify;
+}
+
+#section-header{
+    text-align: center;
+    font-size: 3rem;
 }
