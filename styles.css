@@ -275,3 +275,16 @@ main{
     text-align: center;
     font-size: 3rem;
 }
+/* !!!!!!!!!! Citizen Quiz !!!!!!!!!! */
+.quiz-box{
+    background-color: white;
+    width: 95%;
+    position: absolute;
+    left: 3em;
+}
+
+#quiz-info{
+    text-align: center;
+
+}
+
