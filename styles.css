@@ -269,6 +269,8 @@ main{
     left: 3.15em;
     padding: 2rem;
     text-align: justify;
+    border: 0.5rem black solid;
+    border-radius: 3%;
 }
 
 #section-header{
@@ -281,10 +283,10 @@ main{
     width: 95%;
     position: absolute;
     left: 3em;
+    padding: 2rem;
 }
 
 #quiz-info{
     text-align: center;
-
+    padding-bottom: 2rem;
 }
-

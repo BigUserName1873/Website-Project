@@ -39,25 +39,40 @@
             </ul>
         </nav>
 
+
+
         <main>
-            <div class="quiz-box">
+            <div class="quiz-box" style="z-index: 1000 !important;">
                 <h3 id="quiz-info">
                     Thank You for being interested in being a citizen of Pepsi City! To see if you are 
                     fit to become a citizen, please fill out all forms below:
                 </h3>
-                <form action="/action_page.php">
-                    <label for="fname">First name:</label>
-                    <input type="text" id="fname" name="fname"><br><br>
-                    <label for="lname">Last name:</label>
-                    <input type="text" id="lname" name="lname"><br><br>
-                    <input type="submit" value="Submit">
-                  </form>
-                  
-                <form>
+                  <form id="quiz">
                     <label for="name">Enter your first and last name</label><br>
-                    <input type="text" id="name" name="name" value="Type your name here">
+                    <input type="text" id="name" name="name" value="Type your name here"><br><br><br><br><br>
+                    <label for="birth">Enter Your Date of Brith</label><br>
+                    <input type="text" id="birth" name="birthday" value="Type it like this! 01-01-2021"><br><br><br><br><br>
+                    <label for="social-id">Enter Your Social ID</label><br>
+                    <input type="text" name="id" id="social-id" value="Ex. 1234-ABCD-4A3B2C1D"><br><br><br><br><br>
+                    <label for="address">Enter Your Current Home Address</label><br>
+                    <input type="text" name="address" id="address" value="Type your address!"><br><br><br><br><br>
+                    <label for="education">Select The Highest Level Of Education You Have Recived</label><br>
+                    <input type="radio" id="high-school" name="education" value="High School">
+                    <label for="high-school">High School</label><br>
+                    <input type="radio" id="techincal" name="education" value="Technical School">
+                    <label for="techincal">Technical School</label><br>
+                    <input type="radio" id="associate" name="education" value="Associate Degree">
+                    <label for="associate"></label>Associate Degree<br>
+                    <input type="radio" id="bachelor" name="education" value="Bachelor's Degree">
+                    <label for="bachelor">Bachelor's Degree</label><br>
+                    <input type="radio" id="master" name="education" value="Master's Degree">
+                    <label for="master"></label>Master's Degree<br>
+                    <input type="radio" id="doctorate" name="education" value="Doctorate">
+                    <label for="doctorate">Doctorate</label><br>
+                    <input type="radio" id="professional" name="education" value="Professional">
+                    <label for="professional">Professional</label><br><br><br><br><br>
+                    
                     <input type="submit" value="Submit">
-
                 </form>
 
             </div>
