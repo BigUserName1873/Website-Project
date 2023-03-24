@@ -18,7 +18,7 @@ nav{
     top: 0;
     bottom: 0;
     left: 0;
-    z-index: 1;
+    z-index: 2;
 }
 
 .nav-items{
@@ -264,9 +264,9 @@ main{
     position: relative;
     background-color: white;
     color: blue;
-    width: 91%;
+    width: 75%;
     top: 30em;
-    left: 3.15em;
+    left: 13em;
     padding: 2rem;
     text-align: justify;
     border: 0.5rem black solid;
@@ -280,16 +280,19 @@ main{
 }
 
 #ending{
+    margin-top: 2rem;
+    font-size: 1.5rem;
     text-align: center;
 }
 /* !!!!!!!!!! Citizen Quiz !!!!!!!!!! */
 .quiz-box{
     background-color: white;
     width: 90%;
-    position: absolute;
+    position: relative;
     left: 3.75em;
     padding: 2rem;
-    margin-bottom: 500em;
+    margin-bottom: 10em;
+    border-radius: 3em;
 }
 
 #pepsi-flag{
@@ -298,9 +301,173 @@ main{
     width: 25em;
     left: 45em;
     top: 10em;
+    border-radius: 2em;
+}
+
+#pepsi-man{
+    position: absolute;
+    height: 25em;
+    width: 25em;
+    left: 65em;
+    top: 45em;
+    border-radius: 2em;
 }
 
 #quiz-info{
     text-align: center;
     padding-bottom: 2rem;
 }
+
+/* !!!!! Store !!!!! */
+
+.store-text{
+    position: absolute;
+    color: blue;
+    text-align: center;
+    width: fit-content;
+    height: fit-content;
+    padding: 2.5rem;
+    margin-left: 25%;
+    top: 2rem;
+}
+
+.store-box{
+    border: 0.4em red double;
+    position: relative;
+    color: blue;
+    margin-top: 10em;
+    background-color: white;
+    width: 75%;
+    padding: 5em;
+    padding-top: 15em;
+    margin-left: 9.75em;
+    height: fit-content;
+    margin-bottom: 10em;
+}
+
+#can{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;
+}
+
+#six-pack{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;
+}
+
+#bottle{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;
+}
+
+#two-liter{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;
+}
+
+#bible{
+    height: 15em;
+    margin: 3em;
+    width: 15em;
+    border: red 0.1875em solid;
+    border-radius: 1em;}
+
+#mug{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;
+}
+
+#shirt{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;}
+
+#suit{
+    height: 15em;
+    width: 15em;
+    margin: 3em;
+    border: red 0.1875em solid;
+    border-radius: 1em;
+}
+
+#can-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 35.75rem;
+    left: 8rem;
+    
+}
+
+#six-pack-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 35.75rem;
+    left: 31rem;
+
+}
+
+#bottle-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 35.75rem;
+    left: 51.5rem;
+
+}
+
+#two-liter-text{
+    font-size: 1.2rem;
+    position: absolute;
+    top: 35.75rem;
+    left: 72.5rem;
+
+}
+
+#bible-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 57rem;
+    left: 9.5rem;
+
+}
+
+#mug-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 57rem;
+    left: 31rem;
+
+}
+
+#shirt-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 57rem;
+    left: 52rem;
+
+}
+
+#suit-text{
+    position: absolute;
+    font-size: 1.2rem;
+    top: 57rem;
+    left: 73.5rem;
+
+}
+
