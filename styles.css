@@ -271,11 +271,16 @@ main{
     text-align: justify;
     border: 0.5rem black solid;
     border-radius: 3%;
+    margin-bottom: 35em;
 }
 
 #section-header{
     text-align: center;
     font-size: 2.5rem;
+}
+
+#ending{
+    text-align: center;
 }
 /* !!!!!!!!!! Citizen Quiz !!!!!!!!!! */
 .quiz-box{
@@ -284,6 +289,7 @@ main{
     position: absolute;
     left: 3.75em;
     padding: 2rem;
+    margin-bottom: 500em;
 }
 
 #pepsi-flag{
